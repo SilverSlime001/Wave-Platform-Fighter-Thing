@@ -15,6 +15,16 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
+    {"name":"Player","order":3,"path":"folders/Objects/Player.yy",},
+    {"name":"Enemy","order":5,"path":"folders/Objects/Enemy.yy",},
   ],
-  "ResourceOrderSettings": [],
+  "ResourceOrderSettings": [
+    {"name":"SolidPlatform","order":7,"path":"objects/SolidPlatform/SolidPlatform.yy",},
+    {"name":"Platform","order":8,"path":"objects/Platform/Platform.yy",},
+    {"name":"Entity","order":9,"path":"objects/Entity/Entity.yy",},
+    {"name":"SemiPlatform","order":2,"path":"objects/SemiPlatform/SemiPlatform.yy",},
+    {"name":"Sprite2","order":17,"path":"sprites/Sprite2/Sprite2.yy",},
+    {"name":"Sprite3","order":18,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"Sprite1","order":16,"path":"sprites/Sprite1/Sprite1.yy",},
+  ],
 }
