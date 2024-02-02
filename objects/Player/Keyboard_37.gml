@@ -1,4 +1,4 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (!intumble&&xvel>-6) xvel--;
+if (!intumble&&xvel>-5) xvel--;
 facingright=false;

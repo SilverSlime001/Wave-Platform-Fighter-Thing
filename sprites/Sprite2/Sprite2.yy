@@ -4,9 +4,9 @@
   "name": "Sprite2",
   "bbox_bottom": 0,
   "bbox_left": 0,
-  "bbox_right": 0,
+  "bbox_right": 4,
   "bbox_top": 0,
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1,
+  "height": 5,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"cf91cb3e-ff74-45a9-b92f-6aea8a76b197","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1,
+  "width": 5,
 }
