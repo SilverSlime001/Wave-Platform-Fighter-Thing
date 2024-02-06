@@ -1,6 +1,6 @@
 //movement//---------------------------------------------------
 
-if (place_meeting(x, y+1, Platform)){grounded=true;jumpcount=2;}
+if (place_meeting(x, y+sprite_height+1, Platform)){grounded=true;jumpcount=2;}
 else grounded=false;//if platform not beneath than is not grounded
 
 //horiz
@@ -26,5 +26,8 @@ if (x>display_get_width()+50||x<-50||y<-50||y>display_get_height()+50){
 	yvel=0;
 }
 
+//determine direction
+left=0;
+right=0;
 
 step++;

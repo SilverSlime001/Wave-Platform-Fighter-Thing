@@ -37,7 +37,6 @@
   },
   "resources": [
     {"id":{"name":"SolidPlatform","path":"objects/SolidPlatform/SolidPlatform.yy",},},
-    {"id":{"name":"Platform","path":"objects/Platform/Platform.yy",},},
     {"id":{"name":"Entity","path":"objects/Entity/Entity.yy",},},
     {"id":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},},
     {"id":{"name":"Player","path":"objects/Player/Player.yy",},},
@@ -45,6 +44,7 @@
     {"id":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
+    {"id":{"name":"Platform","path":"objects/Platform/Platform.yy",},},
     {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
     {"id":{"name":"Main","path":"rooms/Main/Main.yy",},},
   ],
