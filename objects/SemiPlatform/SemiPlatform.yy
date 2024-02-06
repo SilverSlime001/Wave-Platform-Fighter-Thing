@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite2",
-    "path": "sprites/Sprite2/Sprite2.yy",
+    "name": "semiplat",
+    "path": "sprites/semiplat/semiplat.yy",
   },
   "spriteMaskId": null,
   "visible": true,

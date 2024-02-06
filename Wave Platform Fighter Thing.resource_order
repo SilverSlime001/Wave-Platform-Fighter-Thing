@@ -22,9 +22,10 @@
     {"name":"SolidPlatform","order":7,"path":"objects/SolidPlatform/SolidPlatform.yy",},
     {"name":"Entity","order":9,"path":"objects/Entity/Entity.yy",},
     {"name":"SemiPlatform","order":2,"path":"objects/SemiPlatform/SemiPlatform.yy",},
-    {"name":"Sprite2","order":17,"path":"sprites/Sprite2/Sprite2.yy",},
-    {"name":"Sprite3","order":18,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"semiplat","order":2,"path":"sprites/semiplat/semiplat.yy",},
+    {"name":"player","order":3,"path":"sprites/player/player.yy",},
+    {"name":"Projectile_Player","order":1,"path":"objects/Projectile_Player/Projectile_Player.yy",},
     {"name":"Platform","order":10,"path":"objects/Platform/Platform.yy",},
-    {"name":"Sprite1","order":16,"path":"sprites/Sprite1/Sprite1.yy",},
+    {"name":"solidplat","order":1,"path":"sprites/solidplat/solidplat.yy",},
   ],
 }

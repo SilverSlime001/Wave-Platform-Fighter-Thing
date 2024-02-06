@@ -27,7 +27,40 @@ if (x>display_get_width()+50||x<-50||y<-50||y>display_get_height()+50){
 }
 
 //determine direction
-left=0;
+up=0;
 right=0;
+if (keyboard_check(vk_up))up++;
+if (keyboard_check(vk_down))up--;
+if (keyboard_check(vk_right))right++;
+if (keyboard_check(vk_left))right--;
+/*if (up==1){//direction in angle
+	if (right==-1){
+		direction=135;
+	}else if (right==0){
+		direction=90;
+	}else{//implied 1
+		direction=45;
+	}
+}
+else if (up==0){
+	if (right==-1){
+		direction=180;
+	}else if (right==0){
+		if(facingright)direction=0;else direction=180;
+	}else{//implied 1
+		direction=0;
+	}
+}
+else{//implied -1
+	if (right==-1){
+		direction=225;
+	}else if (right==0){
+		direction=270;
+	}else{//implied 1
+		direction=315;
+	}
+}*/
+
+
 
 step++;
