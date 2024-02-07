@@ -21,9 +21,12 @@
   "ResourceOrderSettings": [
     {"name":"SolidPlatform","order":7,"path":"objects/SolidPlatform/SolidPlatform.yy",},
     {"name":"Entity","order":9,"path":"objects/Entity/Entity.yy",},
+    {"name":"Slash","order":4,"path":"sprites/Slash/Slash.yy",},
+    {"name":"Enemy_Rushdown","order":1,"path":"objects/Enemy_Rushdown/Enemy_Rushdown.yy",},
     {"name":"SemiPlatform","order":2,"path":"objects/SemiPlatform/SemiPlatform.yy",},
     {"name":"semiplat","order":2,"path":"sprites/semiplat/semiplat.yy",},
     {"name":"player","order":3,"path":"sprites/player/player.yy",},
+    {"name":"enemy_rushdown","order":16,"path":"sprites/enemy_rushdown/enemy_rushdown.yy",},
     {"name":"Projectile_Player","order":1,"path":"objects/Projectile_Player/Projectile_Player.yy",},
     {"name":"Platform","order":10,"path":"objects/Platform/Platform.yy",},
     {"name":"solidplat","order":1,"path":"sprites/solidplat/solidplat.yy",},
