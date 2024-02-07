@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 //ground
-if (place_meeting(x, y+sprite_height/2+1, Platform)){grounded=true;jumpcount=2;yvel=0}
+if (place_meeting(x, y+1, Platform)){grounded=true;jumpcount=2;yvel=0}
 else grounded=false;
 
 //horiz
@@ -20,7 +20,7 @@ x+=(xvel-4)/weight;//moving//idk why i have to do the -4 but it works
 
 //gravity+vertical
 //jump ai
-if (Player.y<y&&jumpcount>0){
+if (Player.y+Player.sprite_height/2 +20<y&&jumpcount>0){
 	jumpcount--;
 	yvel=-10;
 }

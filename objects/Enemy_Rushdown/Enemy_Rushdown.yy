@@ -4,7 +4,6 @@
   "name": "Enemy_Rushdown",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":18,"eventType":5,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [

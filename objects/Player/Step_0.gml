@@ -1,6 +1,6 @@
 //movement//---------------------------------------------------
 
-if (place_meeting(x, y+sprite_height+1, Platform)){grounded=true;jumpcount=2;}
+if (place_meeting(x, y+sprite_height+1, Platform)){grounded=true;jumpcount=maxjumpcount;}
 else grounded=false;//if platform not beneath than is not grounded
 
 //horiz
