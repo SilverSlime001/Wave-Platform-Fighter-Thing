@@ -1,4 +1,3 @@
 /// @description Insert description here
 // You can write your code in this editor
-yvel+=1;
-lasttimedownpressed=step;
+instance_destroy();

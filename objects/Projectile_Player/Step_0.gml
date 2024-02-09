@@ -1,4 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-yvel+=1;
-lasttimedownpressed=step;
+step++;
+x+=xvel;
+y+=yvel;
+if (step>300)instance_destroy();
