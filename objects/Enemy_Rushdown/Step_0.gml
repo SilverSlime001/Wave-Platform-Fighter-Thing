@@ -1,5 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
+//amidead???
+if (dmgtaken>hp)instance_destroy();
+
 //ground
 if (place_meeting(x, y+1, Platform)){grounded=true;jumpcount=2;yvel=0}
 else grounded=false;
