@@ -19,7 +19,7 @@ if (intumble)image_speed=1;
 else image_speed=0;
 
 //if fell off stage reset
-if (x>display_get_width()+50||x<-50||y<-50||y>display_get_height()+50){
+if (x>display_get_width()+100||x<-100||y<-200||y>display_get_height()+100){
 	x=550;
 	y=200;
 	xvel=0;
