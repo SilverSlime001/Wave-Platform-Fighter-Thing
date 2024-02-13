@@ -6,5 +6,6 @@
 if (step-lastdashstep>20&&(keyboard_check(vk_left)||keyboard_check(vk_right)||keyboard_check(vk_up)||keyboard_check(vk_down))){
 	xvel+=20*right;
 	yvel-=10*up;
+	if (right!=0||up>-1)//makes super jump require timing - makes everything else not, maybe just remove
 	lastdashstep=step;
 }

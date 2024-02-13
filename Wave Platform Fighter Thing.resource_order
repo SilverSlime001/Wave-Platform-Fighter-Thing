@@ -26,7 +26,7 @@
     {"name":"SemiPlatform","order":2,"path":"objects/SemiPlatform/SemiPlatform.yy",},
     {"name":"semiplat","order":2,"path":"sprites/semiplat/semiplat.yy",},
     {"name":"player","order":3,"path":"sprites/player/player.yy",},
-    {"name":"enemy_rushdown","order":16,"path":"sprites/enemy_rushdown/enemy_rushdown.yy",},
+    {"name":"enemy_rushdown","order":5,"path":"sprites/enemy_rushdown/enemy_rushdown.yy",},
     {"name":"Projectile_Player","order":1,"path":"objects/Projectile_Player/Projectile_Player.yy",},
     {"name":"Platform","order":10,"path":"objects/Platform/Platform.yy",},
     {"name":"solidplat","order":1,"path":"sprites/solidplat/solidplat.yy",},
