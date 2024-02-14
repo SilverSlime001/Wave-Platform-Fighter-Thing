@@ -17,6 +17,7 @@
     {"name":"Sprites","order":1,"path":"folders/Sprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"hud","order":11,"path":"folders/Objects/hud.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"SolidPlatform","order":7,"path":"objects/SolidPlatform/SolidPlatform.yy",},
@@ -25,8 +26,10 @@
     {"name":"Enemy_Rushdown","order":1,"path":"objects/Enemy_Rushdown/Enemy_Rushdown.yy",},
     {"name":"SemiPlatform","order":2,"path":"objects/SemiPlatform/SemiPlatform.yy",},
     {"name":"semiplat","order":2,"path":"sprites/semiplat/semiplat.yy",},
+    {"name":"dashicon","order":7,"path":"sprites/dashicon/dashicon.yy",},
     {"name":"player","order":3,"path":"sprites/player/player.yy",},
     {"name":"enemy_rushdown","order":5,"path":"sprites/enemy_rushdown/enemy_rushdown.yy",},
+    {"name":"cooldownbar","order":6,"path":"sprites/cooldownbar/cooldownbar.yy",},
     {"name":"Projectile_Player","order":1,"path":"objects/Projectile_Player/Projectile_Player.yy",},
     {"name":"Platform","order":10,"path":"objects/Platform/Platform.yy",},
     {"name":"solidplat","order":1,"path":"sprites/solidplat/solidplat.yy",},
