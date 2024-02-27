@@ -32,6 +32,9 @@
     "name": "solidplat",
     "path": "sprites/solidplat/solidplat.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "solidplatcollision",
+    "path": "sprites/solidplatcollision/solidplatcollision.yy",
+  },
   "visible": true,
 }

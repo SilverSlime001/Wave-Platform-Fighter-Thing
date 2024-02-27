@@ -8,7 +8,7 @@ if(step-lastattackstep>3){
 	yvel/=-2;
 	
 	//Player knockback
-	Player.xvel+=ln(Player.dmgtaken)*(-xvel)/4;
-	Player.yvel+=ln(Player.dmgtaken)*(-yvel)/4;
+	Player.xvel+=Player.dmgtaken*(-xvel)/500;
+	Player.yvel+=Player.dmgtaken*(-yvel)/500;
 	lastattackstep=step;
 }

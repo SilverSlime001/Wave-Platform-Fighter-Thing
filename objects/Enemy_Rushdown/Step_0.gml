@@ -28,6 +28,10 @@ if (Player.y+Player.sprite_height/2 +20<y&&jumpcount>0){
 	yvel=-10;
 }
 
+//semiplat drop
+if(Player.y>y&&place_meeting(x, y+1, SemiPlatform)){
+	y+=5;
+}
 //move
 if (!grounded)yvel+=weight;
 if (yvel>0) y+=yvel*weight/3;
