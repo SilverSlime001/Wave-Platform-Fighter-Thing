@@ -3,7 +3,7 @@
 if(step-lastattackstep>3){
 	temp=sqr(xvel^2+yvel^2);
 	Player.dmgtaken+=temp;
-	hp-=temp/500;
+	//hp-=temp/500;
 	xvel*=-2;
 	yvel/=-2;
 	
