@@ -3,4 +3,5 @@
 other.dmgtaken+=dmg*(sqrt(xvel*xvel+yvel*yvel)+dmg)/5;
 other.xvel+=xvel*dmg;
 other.yvel+=yvel*dmg;
+other.tumbletimer=dmg*2;
 instance_destroy();

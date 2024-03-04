@@ -38,10 +38,11 @@ if (yvel>0) y+=yvel*weight/3;
 if(yvel<0) y+=yvel;
 
 //tumble anim
-//if (intumble)image_speed=1;
-//else {sprite_index=0;image_speed=0;}
+if (tumbletimer>0)image_speed=1;
+else {image_index=0;image_speed=0;}
 
 //is out of bounds
 if(x>room_width||x<0||y>room_height||y<0)instance_destroy();
 
 step++;
+tumbletimer--;
