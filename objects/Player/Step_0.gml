@@ -21,6 +21,7 @@ else image_speed=0;
 //if fell off stage reset
 if (x>room_width+100||x<-100||y<-200||y>room_height+100){
 	show_message("GAME OVER\nSCORE: "+string(score));
+	room=EndScreen;
 	/*x=550;//reset for debug
 	y=200;
 	xvel=0;
