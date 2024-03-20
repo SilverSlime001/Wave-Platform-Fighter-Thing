@@ -8,11 +8,15 @@
   "inheritLayers": false,
   "instanceCreationOrder": [
     {"name":"inst_6B6E3998","path":"rooms/EndScreen/EndScreen.yy",},
+    {"name":"inst_24A98A82","path":"rooms/EndScreen/EndScreen.yy",},
+    {"name":"inst_4C3BBD55","path":"rooms/EndScreen/EndScreen.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6B6E3998","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"SolidPlatRectangle","path":"objects/SolidPlatRectangle/SolidPlatRectangle.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":0.0,"x":-32.0,"y":736.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_24A98A82","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ScoreDisplay","path":"objects/ScoreDisplay/ScoreDisplay.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":130.0,"y":533.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4C3BBD55","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ReturnButton","path":"objects/ReturnButton/ReturnButton.yy",},"properties":[],"rotation":0.0,"scaleX":2.2109375,"scaleY":2.140625,"x":997.0,"y":54.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_503CC0AE","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":-89.83331,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"solidplat","path":"sprites/solidplat/solidplat.yy",},"x":192.0,"y":192.0,},
