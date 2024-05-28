@@ -42,7 +42,9 @@ if (tumbletimer>0)image_speed=1;
 else {image_index=0;image_speed=0;}
 
 //is out of bounds
-if(x>room_width||x<0||y>room_height||y<0)instance_destroy();
-
+if(x>room_width||x<0||y>room_height||y<0){
+	instance_destroy();
+	score-=floor(3*hpcopy/4);
+}
 step++;
 tumbletimer--;

@@ -5,6 +5,9 @@ if (step%interval==0){
 	temp=instance_create_depth(random_range(225,1025), random_range(60,300), depth,Enemy_Rushdown);
 	temp.image_xscale=2;
 	temp.image_yscale=2;
+	//temp.hp+=5*log2(step);
+	//temp.dmg+=log10(step)/10;
+	//temp.speed+=log10(step);
 	interval=ceil(interval*.9);
 }
 
