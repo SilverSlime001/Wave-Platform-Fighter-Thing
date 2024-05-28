@@ -14,3 +14,5 @@ if(yvel<0) y+=yvel;
 //tumble anim
 if (intumble)image_speed=1;
 else image_speed=0;
+
+step++;
