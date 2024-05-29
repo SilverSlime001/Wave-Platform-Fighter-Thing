@@ -11,13 +11,13 @@ else grounded=false;
 //ai
 if (!collision_line(x, y, x, room_height, Platform, false, true)){
 	//if no platform below entity
-	if (x>room_width/2&&xvel>-speed)xvel-=2;
-	else if (x<room_width/2&&xvel<speed)xvel+=2;
+	if (x>room_width/2&&xvel>-espeed)xvel-=2;
+	else if (x<room_width/2&&xvel<espeed)xvel+=2;
 	//show_message("RAHHH");
 }
 else{
-	if (Player.x+Player.sprite_width/2>x&&xvel<speed)xvel++;
-	if (Player.x+Player.sprite_width/2<x&&xvel>-speed)xvel--;	
+	if (Player.x+Player.sprite_width/2>x&&xvel<espeed)xvel++;
+	if (Player.x+Player.sprite_width/2<x&&xvel>-espeed)xvel--;	
 }
 x+=(xvel-4)/weight;//moving//idk why i have to do the -4 but it works
 
@@ -38,8 +38,8 @@ if (yvel>0) y+=yvel*weight/3;
 if(yvel<0) y+=yvel;
 
 //tumble anim
-if (tumbletimer>0)image_speed=1;
-else {image_index=0;image_speed=0;}
+if (tumbletimer>0)image_espeed=1;
+else {image_index=0;image_espeed=0;}
 
 //is out of bounds
 if(x>room_width||x<0||y>room_height||y<0){
