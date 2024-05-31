@@ -6,7 +6,7 @@ if (step%interval==0){
 	temp.image_xscale=2;
 	temp.image_yscale=2;
 	//temp.hp+=5*log2(step);
-	temp.dmg+=log10(step)/10;
+	//temp.dmg+=log10(step)/10;
 	//temp.espeed+=log10(step)/500;
 	interval=ceil(interval*.9);
 	//show_message("spawned with speed" + temp.maxspeed);
