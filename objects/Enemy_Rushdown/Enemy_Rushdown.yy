@@ -5,10 +5,11 @@
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"Player","path":"objects/Player/Player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":86,"eventType":5,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"speed","path":"objects/Enemy/Enemy.yy",},"value":"5",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"espeed","path":"objects/Enemy/Enemy.yy",},"value":"5",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"Enemy","path":"objects/Enemy/Enemy.yy",},"propertyId":{"name":"weight","path":"objects/Enemy/Enemy.yy",},"value":".75",},
   ],
   "parent": {
