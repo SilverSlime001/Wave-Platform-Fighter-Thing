@@ -4,6 +4,10 @@ time--;
 if (time<=0){
 	instance_destroy();
 }
+else if(time<=5){
+	image_index=1;
+	image_alpha-=.02;
+}
 yvel+=.05;
 x+=xvel;
 y+=yvel;
