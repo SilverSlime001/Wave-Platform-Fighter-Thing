@@ -1,3 +1,5 @@
+/// @description Insert description here
+// You can write your code in this editor
 /// @Explode on Destroy
 // You can write your code in this editor
 for (i=0;;i++){
@@ -12,12 +14,12 @@ for (i=0;;i++){
 	}
 }
 for(i=0;i<9;i++){
-	
-	tempproj=instance_create_depth(x+sprite_width/2, y+sprite_height/2, depth, Projectile_Player);
+	if (recursionnum>2)break;
+	tempproj=instance_create_depth(x+sprite_width/2, y+sprite_height/2, depth, forkbomb);
 	//tempproj.xvel=xvel*.2+i*7;
 	//tempproj.yvel=yvel*.2-j*7;
+	tempproj.recursionnum=recursionnum+1;
 	tempproj.speed=10;
 	tempproj.direction=random_range(0,359);
 	tempproj.image_angle=tempproj.direction;
-	tempproj.image_index=3;
 }

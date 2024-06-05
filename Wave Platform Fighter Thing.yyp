@@ -41,6 +41,7 @@
   "resources": [
     {"id":{"name":"SolidPlatform","path":"objects/SolidPlatform/SolidPlatform.yy",},},
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},},
+    {"id":{"name":"forkbomb","path":"objects/forkbomb/forkbomb.yy",},},
     {"id":{"name":"Entity","path":"objects/Entity/Entity.yy",},},
     {"id":{"name":"thickstage","path":"sprites/thickstage/thickstage.yy",},},
     {"id":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},},

@@ -24,6 +24,7 @@
   "ResourceOrderSettings": [
     {"name":"SolidPlatform","order":7,"path":"objects/SolidPlatform/SolidPlatform.yy",},
     {"name":"Sprite16","order":15,"path":"sprites/Sprite16/Sprite16.yy",},
+    {"name":"forkbomb","order":5,"path":"objects/forkbomb/forkbomb.yy",},
     {"name":"Entity","order":9,"path":"objects/Entity/Entity.yy",},
     {"name":"thickstage","order":12,"path":"sprites/thickstage/thickstage.yy",},
     {"name":"Slash","order":4,"path":"sprites/Slash/Slash.yy",},
