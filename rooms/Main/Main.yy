@@ -15,7 +15,7 @@
     {"name":"inst_BC88C38","path":"rooms/Main/Main.yy",},
     {"name":"inst_7009E48B","path":"rooms/Main/Main.yy",},
     {"name":"inst_6F41BCC9","path":"rooms/Main/Main.yy",},
-    {"name":"inst_6F561775","path":"rooms/Main/Main.yy",},
+    {"name":"inst_507D2841","path":"rooms/Main/Main.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -27,7 +27,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3B664909","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Enemy_Rushdown","path":"objects/Enemy_Rushdown/Enemy_Rushdown.yy",},"properties":[],"rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":768.0,"y":96.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_BC88C38","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"GameManager","path":"objects/GameManager/GameManager.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":32.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F41BCC9","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"DamageDisplay","path":"objects/DamageDisplay/DamageDisplay.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":32.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F561775","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"Bomb_Player","path":"objects/Bomb_Player/Bomb_Player.yy",},"properties":[],"rotation":0.0,"scaleX":0.5,"scaleY":0.5,"x":640.0,"y":160.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_507D2841","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"ScoreDisplay","path":"objects/ScoreDisplay/ScoreDisplay.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":941.0,"y":32.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"hud","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7009E48B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"DashIndicator","path":"objects/DashIndicator/DashIndicator.yy",},"properties":[],"rotation":0.0,"scaleX":4.0,"scaleY":3.0,"x":96.0,"y":672.0,},

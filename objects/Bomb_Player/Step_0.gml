@@ -8,6 +8,6 @@ else if(time<=5){
 	image_index=1;
 	image_alpha-=.02;
 }
-yvel+=.05;
+yvel+=.15;
 x+=xvel;
 y+=yvel;

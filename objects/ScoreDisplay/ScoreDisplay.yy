@@ -9,7 +9,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Display",
-    "path": "folders/Objects/UI/Display.yy",
+    "path": "folders/Objects/hud/Display.yy",
   },
   "parentObjectId": {
     "name": "Display",
